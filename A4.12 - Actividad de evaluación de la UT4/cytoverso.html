@@ -15,7 +15,16 @@
 </head>
 <style>
   body {
-    background-color: #5b0e88;
+    /*background-color: #5b0e88;*/
+    background-color: rgb(48, 48, 48);
+    background-image: url("Fondo-body.png");  
+    background-repeat: repeat;
+    background-size: cover;
+    background-position-x: 1260px;
+    background-position-y: 100px;
+    
+    
+
   }
 
   .spensa_nav {
@@ -27,46 +36,101 @@
 
     padding-left: 1%;
   }
+
+  .navbar-nav .fa-star:hover {
+    color: #5f9bd3;
+    /* Cambiar color al pasar el ratón */
+
+  }
+
+  .navbar-nav .fa-book:hover {
+    color: #f0454b;
+    /* Cambiar color al pasar el ratón */
+
+  }
+
+  .navbar-nav .fa-shirt:hover {
+    color: #5dedfb;
+    /* Cambiar color al pasar el ratón */
+
+  }
+
+  .navbar-nav .fa-plane:hover {
+    color: #8717c8;
+    /* Cambiar color al pasar el ratón */
+
+  }
+
+
+
+  .p-md-5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+  }
+
+  .brandon {
+
+    background-color: #412f45;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .tuhermana {
+    padding: 5%;
+  }
+
+
+  .brandon p {
+    font-size: 2rem;
+  }
+
+  
+  
+
 </style>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
-    <div class="container-fluid">
-      <a href="cytoverso.html">
-        <img src="spensa_nav.png" class="spensa_nav">
-      </a>
-      <a class="navbar-brand" href="cytoverso.html">Cytoverse</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="fa-solid fa-star nav-link active" href="cytoverso.html"></a>
-          </li>
-          <li class="nav-item">
-            <a class="fa-solid fa-book nav-link active" href="cytoverso.html"></a>
-          </li>
-          <li class="nav-item">
-            <a class="fa-solid fa-shirt nav-link active" href="cytoverso.html"></a>
-          </li>
-          <li>
-            <a class="fa-solid fa-plane nav-link active" href="merch.html"></a>
-          </li>
-        </ul>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <a href="cytoverso.html">
+          <img src="spensa_nav.png" class="spensa_nav">
+        </a>
+        <a class="navbar-brand" href="cytoverso.html">Cytoverse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="fa-solid fa-star nav-link active" href="cytoverso.html"></a>
+            </li>
+            <li class="nav-item">
+              <a class="fa-solid fa-book nav-link active" href="cytoverso.html"></a>
+            </li>
+            <li class="nav-item">
+              <a class="fa-solid fa-shirt nav-link active" href="merch.html"></a>
+            </li>
+            <li>
+              <a class="fa-solid fa-plane nav-link active" href="cytoverso.html"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis">
+    <div class="col-lg-6 px-0 brandon">
+      <div class="tuhermana">
+      <h1 class="display-4 fw-bold">What is the cytoverse</h1>
+      <p class="lead my-3 ">The cytoverse is a universe created by Branson Sanderson</p>
+      <p class="lead mb-0"><a href="#" class="fw-bold link-light">Continue reading...</a></p>
       </div>
     </div>
-  </nav>
-  <section>
-    <h2>What is the cytoverse</h2>
-    <p>The cytoverse is a universe created by Branson Sanderson</p>
-    <!-- Otros elementos HTML dentro de la sección -->
-</section>
-
-
-
-
+  </div>
 </body>
 
 </html>
