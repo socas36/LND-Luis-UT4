@@ -92,7 +92,7 @@
     color: #f5f5f5;
     /* Light gray text color */
     line-height: 1.5;
-  
+
   }
 
 
@@ -100,17 +100,34 @@
     font-size: 2rem;
   }
 
-  .texto h1  {
-    background-color: rgb(159,105,213, 0.25);
+  .texto h1 {
+    background-color: rgb(159, 105, 213, 0.25);
     border-radius: 10px;
   }
 
   .texto p {
-    background-color: rgb(159,105,213, 0.25);
+    background-color: rgb(159, 105, 213, 0.25);
     border-radius: 10px;
   }
-  
-  
+
+  .footer {
+    color: white;
+  }
+
+  .fa-instagram {
+
+    padding-right: 3%;
+  }
+
+  .fa-pinterest {
+    padding-right: 2%;
+  }
+
+  .git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
 
 <body>
@@ -147,14 +164,34 @@
     <div class="col-lg-6 px-0 brandon">
       <div class="tuhermana">
         <div class="texto">
-        <h1 class="display-4 fw-bold">What is the cytoverse</h1>
-        <p class="lead my-3 ">The Cytoverse is a science fiction universe created by author Brandon Sanderson. It is set
-          in a far future where humanity has colonized space and has divided into several factions. The story follows
-          the members of one of these factions, the Defiant, as they struggle to survive in a hostile universe.</p>
-        <p class="lead mb-0"><a href="#" class="fw-bold link-light">Continue reading...</a></p>
-      </div>
+          <h1 class="display-4 fw-bold">What is the cytoverse</h1>
+          <p class="lead my-3 ">The Cytoverse is a science fiction universe created by author Brandon Sanderson. It is
+            set
+            in a far future where humanity has colonized space and has divided into several factions. The story follows
+            the members of one of these factions, the Defiant, as they struggle to survive in a hostile universe.</p>
+          <p class="lead mb-0"><a href="#" class="fw-bold link-light">Continue reading...</a></p>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="footer mb-3 mb-md-0">© 2024 Cytoverse.</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <a class="git" href="https://github.com/socas36/LND-Luis-UT4">Git Hub</a>
+      </ul>
+    </footer>
   </div>
 </body>
 
