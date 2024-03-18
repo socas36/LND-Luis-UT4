@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+    <title>New Books</title>
+    <link>http://www.index.html</link>
+    <description>New Books of Stormlight Archive</description>
+    </channel>
+    <item>
+        <title>Stormlight Book 5</title>
+        <link>index.html | Books</link>
+        <description>The new book of brandon sanderson</description>
+    </item>
+</rss>
