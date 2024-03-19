@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
     <title>New Books</title>
-    <link>https://socas36.github.io/LND-Luis-UT4/index.html</link>
+    <url>https://socas36.github.io/LND-Luis-UT4/index.html</url>
     <description>New Books of Stormlight Archive</description>
     <item>
         <title>Stormlight Book 5</title>
