@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-    <title>New Books</title>
-    <url>https://socas36.github.io/LND-Luis-UT4/index.html</url>
-    <description>New Books of Stormlight Archive</description>
-        <item>
-            <title>Stormlight Book 5</title>
-            <link>cytoverso.html | Books</link>
-            <description>The new book of brandon sanderson</description>
-        </item>
-    </channel>
-    
+  <channel>
+    <title>Cosmere New Books</title>
+    <link>https://socas36.github.io/LND-Luis-UT4/</link>
+    <description>New Books of cosmere</description>
+    <item>
+      <title>Stormlight 5 Book</title>
+      <link>https://socas36.github.io/LND-Luis-UT4/books.html</link>
+      <description>New Stromlight book</description>
+    </item>
+    <item>
+      <title>New Secret project</title>
+      <link>https://socas36.github.io/LND-Luis-UT4/books.html</link>
+      <description>New Secret Project book WarBreaker</description>
+    </item>
+  </channel>
 </rss>

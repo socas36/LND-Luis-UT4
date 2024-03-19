@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-    <title>Stormlight Merch</title>
-    <url>https://socas36.github.io/LND-Luis-UT4/index.html</url>
-    <description>New of Stormlight Archive</description>
+  <channel>
+    <title>Cosmere Merch</title>
+    <link>https://socas36.github.io/LND-Luis-UT4/</link>
+    <description>New merch of cosmere</description>
     <item>
-        <title>Stormlight Merch</title>
-        <description>Ping nº3 Kaladin</description>
+      <title>Plushie</title>
+      <link>https://socas36.github.io/LND-Luis-UT4/merch.html</link>
+      <description>Slug plushie</description>
     </item>
-    </channel>
-    
+    <item>
+      <title>Cytonic-t shirt</title>
+      <link>https://socas36.github.io/LND-Luis-UT4/merch.html</link>
+      <description>New Cytonic-t shirt</description>
+    </item>
+  </channel>
 </rss>
