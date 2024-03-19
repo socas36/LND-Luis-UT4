@@ -1,0 +1,24 @@
+<rss version="2.0">
+    <channel>
+    <title>Portada // elmundo</title>
+    <link>https://www.elmundo.es</link>
+    <description>Portada // elmundo</description>
+    <language>es</language>
+    <copyright>(c) 2024, Unidad Editorial, S.A.</copyright>
+    <pubDate>Tue, 19 Mar 2024 16:11:34 +0100</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2024 16:11:34 +0100</lastBuildDate>
+    <category>News  Politics</category>
+    <ttl>60</ttl>
+    
+    <image>
+    <title>Portada // elmundo</title>
+    <url>
+    https://e00-elmundo.uecdn.es/imagen/canalima144.gif
+    </url>
+    <link>https://www.elmundo.es</link>
+    <width>144</width>
+    <height>24</height>
+    <description>elmundo.es</description>
+    </image>
+    </channel>
+</rss>
