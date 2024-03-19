@@ -2,12 +2,13 @@
 <rss version="2.0">
     <channel>
     <title>New Books</title>
-    <link>http://www.cytoverso.html</link>
+    <link>https://socas36.github.io/LND-Luis-UT4/index.html</link>
     <description>New Books of Stormlight Archive</description>
-    </channel>
     <item>
         <title>Stormlight Book 5</title>
         <link>cytoverso.html | Books</link>
         <description>The new book of brandon sanderson</description>
     </item>
+    </channel>
+    
 </rss>
